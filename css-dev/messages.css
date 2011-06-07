@@ -1,0 +1,46 @@
+/* Template specific */
+#lay_content dl#system-message ul li,
+#lay_content dl#system-message ul li:hover { list-style-image: none; padding: 0; }
+#lay_content dl#system-message ul li:hover { background: transparent; border:none; }
+
+/* System Messages */
+#system-message    { margin-bottom: 10px; padding: 0;}
+#system-message dt { font-weight: bold; font-size: 11px; }
+#system-message dd { margin: 0; font-weight: bold; }
+#system-message dd ul { 
+	color: #05b; 
+	margin-bottom: 10px;
+	list-style: none; 
+	padding: 10px; 
+	padding-left: 40px;
+	border-top: 3px solid #84A7DB; 
+	border-bottom: 3px solid #84A7DB;
+
+	-moz-box-shadow: #888 3px 3px 5px;
+	-webkit-box-shadow: #888 3px 3px 5px;
+	box-shadow: 3px 3px 5px #888;
+}
+#system-message li { background-image : none; }
+
+/* System wide notification */
+#system-message dt { display: none; }
+#system-message dd.okay ul { 
+	color: #c00; border-bottom: 3px solid #F0DC7E; border-top: 3px solid #F0DC7E; }
+	
+/* System Standard Messages */
+#system-message dd.message ul { 
+	background: #cde url(../images/accs/msg-info.gif) 4px center no-repeat;}
+
+/* System Error Messages */
+#system-message dd.error ul { 
+	color: #c00; border-bottom: 3px solid #fc0; border-top: 3px solid #fc0;
+	background: #fea url(../images/accs/msg-error.gif) 4px top no-repeat; }
+
+/* System Notice Messages */
+#system-message dd.notice ul { 
+	color: #c00; border-bottom: 3px solid #F0DC7E; border-top: 3px solid #F0DC7E;
+	background: #eeb url(../images/accs/msg-warning.gif) 4px top no-repeat; }
+
+/* Custom Okay Messages */
+#system-message dd.okay ul { 
+	background: #beb url(../images/accs/msg-okay.gif) 4px top no-repeat;  }

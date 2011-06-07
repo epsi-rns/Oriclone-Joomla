@@ -1,0 +1,56 @@
+#tabmenu_left, #tabmenu_right, #tabmenu_center { float: right; }
+
+#tabsearch, #tabmenu, #tabmenu_left, #tabmenu_right, #tabmenu_center, #tabmenu_center li 
+	{ height:40px; }
+#tabmenu_center, #tabmenu_center li, #tabmenu_center li a
+	{ line-height:40px; }
+	
+#tabmenu li:hover { list-style: none; }	
+
+#tabmenu { padding-top: 30px; }
+
+#tabmenu_center ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#tabmenu_center li {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#tabmenu_center li a {
+	font-size: 1.3em;
+	float: left;
+	display: block;
+	margin: 0;
+	padding: 0 10px 0 10px;	
+	font-weight: normal;
+}
+
+#tabmenu_center li a { color:#eee; text-decoration: none; }
+#tabmenu_center li a:hover { color:#fff; text-decoration: blink; }
+li a#active_menu-nav {	color:#ff0; }
+
+
+#tabmenu_left{
+	width: 6px;
+	float:right;
+	background: url(../images/menu-top/left.gif) top left no-repeat;
+}
+#tabmenu_right{
+	width: 6px;
+	float:right;
+	background: url(../images/menu-top/right.gif) top right no-repeat;
+}
+#tabmenu_center li {}
+#tabmenu_center li:hover {}
+#tabmenu_center li a {}
+#tabmenu_center li a:hover {
+	background: transparent url(../images/menu-top/pointer-yellow.gif) top center no-repeat;
+}
+
+
+
+
+

@@ -1,0 +1,9 @@
+#tabmenu_center li {
+	background: transparent url(../../images/menu-top/bar-olive.png) top repeat-x;
+}
+#tabmenu_center li:hover {
+	background: transparent url(../../images/menu-top/hov-olive.png) top repeat-x;
+}
+#tabmenu_center li a {
+	background: transparent url(../../images/menu-top/sep-olive.png) right no-repeat;
+}

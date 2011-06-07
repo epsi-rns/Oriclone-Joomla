@@ -1,0 +1,11 @@
+/* -- plugins -- */
+
+/* calendar icon */
+div#lay_main td.datetime p { margin: 0;	padding: 0 2px; }	
+div#lay_main td.datetime p.top { margin: 0 0 0 3px; }
+div#lay_main td.datetime p.day { margin: 2px 0 1px 0px; }
+div#lay_main td.datetime p.mon { margin: 4px 0 2px 2px; }
+
+/* -- modules -- */
+
+/* -- components -- */

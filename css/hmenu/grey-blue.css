@@ -1,0 +1,9 @@
+#tabmenu_center li {
+	background: transparent url(../../images/menu-top/bar-grey-blue.png) top repeat-x;
+}
+#tabmenu_center li:hover {
+	background: transparent url(../../images/menu-top/hov-grey-blue.png) top repeat-x;
+}
+#tabmenu_center li a {
+	background: transparent url(../../images/menu-top/sep-grey-blue.png) right no-repeat;
+}

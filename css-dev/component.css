@@ -1,0 +1,48 @@
+/* input */
+
+.login { padding-top: 10px; }
+
+.login-fields {
+	margin:10px 0
+}
+
+.login-fields label {
+	float:left;
+	width:100px;
+}
+
+.login-fields input {
+	background:#fff url(../images/template/shade.gif) repeat-x;
+}
+
+.profile-edit input,
+input#search-searchword,
+input#mod-search-searchword,
+.login-fields input {
+	border:solid 1px #bbb;
+	padding:3px;
+	padding-left: 16px; /* 20px */	
+	height: 16px;
+	font-size: 11px;
+}
+
+.login-fields input:hover {
+	background:#ddd;
+}
+
+
+input#mod-search-searchword 
+	{ background: #666 url(../images/input/magnify-antsorin.gif) no-repeat top left; }
+input#mod-search-searchword:focus 
+	{ background: #444 url(../images/input/magnify-sarxos.gif) no-repeat bottom left; }
+
+.login-fields input#username
+	{ background: #fdfefe url(../images/silk/user.png) no-repeat bottom left; }
+.login-fields input#username:focus 
+	{ background: #fafbfb url(../images/silk/user_suit.png) no-repeat bottom left; }
+
+.login-fields input#password
+	{ background: #fdfefe url(../images/silk/key.png) no-repeat bottom left; }
+.login-fields input#password:focus 
+	{ background: #fafbfb url(../images/silk/asterisk_orange.png) no-repeat bottom left; }
+

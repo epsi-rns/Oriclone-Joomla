@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension
+	version="1.6"
+	type="template"
+	client="site">
+	<name>oriclone</name>
+	<creationDate>2009 09 18</creationDate>
+    <author>E.R. Nurwijayadi</author>
+    <authorEmail>epsi.rns@gmail.com</authorEmail>
+    <authorUrl>www. [dot] .net</authorUrl>
+	<copyright></copyright>
+	<license>GNU/GPL</license>
+	<version>1.6.0</version>
+	<!-- The description is optional and defaults to the name -->
+	<description><![CDATA[
+	<p>Please add '_menu' in module class suffix.</p>
+	<p>See <a href="../templates/oriclone/README.md"><blink>README</blink>.md</a>.</p>
+]]></description>
+
+	<files>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>error.php</filename>
+		<filename>offline.php</filename>
+		<filename>README.md</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>		
+		<filename>params.default.ini</filename>
+		<!--filename>params.ini</filename-->
+		<folder>css</folder>
+		<folder>css-dev</folder>
+		<folder>elements</folder>
+		<folder>fonts</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>libraries</folder>
+		<!--folder>js-dev</folder-->
+	</files>	
+	
+
+	<!-- Basic module positions available in this template. -->
+	<positions>
+		<position>breadcrumb</position>
+		<position>teaser</position>
+		<position>left</position>
+		<position>right</position>
+		<position>top</position>
+		<position>bottom</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>search</position>
+		<position>menumatic</position>
+		<position>footer</position>
+		<position>debug</position>
+		<position>syndicate</position>
+	</positions>
+
+	
+	<!-- Parameter variation for params.ini -->
+	<config>
+	<fields name="params">	
+	<fieldset name="color_accessories" label="COM_TEMPLATES_MENU1_FIELDSET_LABEL">
+		<field name="headerBackground" type="list" default="grey-blue" 
+		label="Header Background" 
+		description="Header background variation to use">	
+			<option value="blue">Blue</option>
+			<option value="grey_blue">Grey Blue</option>			
+			<option value="blue_tutor">Blue Tutorial</option>
+			<option value="olive">Olive</option>
+			<option value="red">Red</option>
+			<option value="red_gloss">Red Gloss</option>
+			<option value="orange">Orange</option>
+			<option value="yellow_orange">Yellow Orange</option>
+			<option value="yellow">Yellow</option>
+		</field>				
+		<field name="topMenu" type="list" default="grey-blue" 
+		label="Top Menu Variation" 
+		description="Horizontal menu color to use">			
+			<option value="grey-blue">Grey Blue</option>			
+			<option value="olive">Olive</option>
+			<option value="red">Red</option>
+			<option value="orange">Orange</option>
+		</field>
+		<field name="topVariation" type="list" default="black" 
+		label="Top/Bottom Background" 
+		description="Top color to use">		
+			<option value="black">Black</option>
+			<option value="orange">Orange</option>
+			<option value="blue">Blue</option>			
+		</field>				
+		
+		<field name="textScheme" type="list" default="elegantsteps" 
+		label="Text Color Scheme" 
+		description="General text color scheme to use">		
+			<option value="elegantsteps">Elegant Steps</option>			
+			<option value="thoughtprovoking">Thought Provoking</option>
+			<option value="oceanfrontproperty">Ocean Front Property</option>
+			<option value="sleepmode">Sleep Mode</option>
+			<option value="trepido">Trepido</option>
+			<option value="peachykeen">Peachy Keen</option>
+		</field>		
+		
+		<field name="mainBackground" type="list" default="feathers" 
+		label="Main Background" 
+		description="Main tiled background pattern to use">		
+			<option value="white">White</option>			
+			<option value="feathers">Feathers</option>
+			<option value="strolling">Strolling</option>							
+			<option value="p159">Pattern 159</option>
+			<option value="p129">Pattern 129</option>
+			<option value="echeveria">Echeveria</option>
+			<option value="black">Black</option>			
+		</field>		
+		<field name="marbleIcon" type="list" default="mix" 
+		label="Marble Icon Variation" 
+		description="Marble icon color to use">		
+			<option value="mix">Mix</option>			
+			<option value="lime">Lime</option>
+			<option value="red">Red</option>
+			<option value="blue">Blue</option>
+		</field>		
+				
+		<field type="spacer" default="Side Accessories" />
+		<field name="stripDefault" type="list" default="white-simple" 
+		label="Default Strip" 
+		description="Default strip background color variation to use">		
+			<option value="none">Transparent</option>
+			<option value="white">White</option>
+			<option value="white-simple">White Simple</option>
+			<option value="white-trans">White Transparent</option>
+			<option value="black-simple">Black Simple</option>
+			<option value="ice">Ice</option>
+			<option value="blue">Blue</option>			
+			<option value="green">Green</option>
+			<option value="lime">Lime</option>
+			<option value="orange">Orange</option>
+			<option value="red">Red</option>
+		</field>
+		<field name="stripHover" type="list" default="ice" 
+		label="Hover Strip" 
+		description="Hover strip background color variation to use">		
+			<option value="none">Transparent</option>
+			<option value="white">White</option>
+			<option value="white-simple">White Simple</option>
+			<option value="black-simple">Black Simple</option>
+			<option value="ice">Ice</option>
+			<option value="blue">Blue</option>			
+			<option value="green">Green</option>
+			<option value="lime">Lime</option>
+			<option value="orange">Orange</option>
+			<option value="red">Red</option>		
+		</field>		
+
+	</fieldset>
+
+	<fieldset name="differentiation" label="COM_TEMPLATES_MENU2_FIELDSET_LABEL">
+
+		<field name="sitename" type="text" default="" 
+			label="Site Name" 
+			description="Type your site name." />	
+
+		<field name="logo" type="list" default="0" 
+		label="Image Logo" description="Logo">
+			<option value="0">None</option>
+			<option value="makara-anim">Makara with Animation</option>
+			<option value="makara">Makara</option>
+			<option value="imm">IMM (Twisted Adidas)</option>
+			<option value="iluni-ftui">Teknik</option>
+			<option value="orb-yellow">Orb Yellow</option>
+			<option value="orb-blue">Orb Blue</option>
+		</field>		
+		
+		<field type="spacer" default="Copyright" />	
+		<field name="copyrightDescription" type="textarea" filter="raw"
+		default="PT. Gamelan Batik, Ambalat - Natuna - Indonesia"
+		label="Copyright Description"
+		description="Your Company Description will be shown in footer."
+		rows="5" cols="35" />			
+
+	</fieldset>
+
+	<fieldset name="advanced">
+				
+		<field
+			addformpath="/templates/oriclone/elements"
+			name="rebuildcss" type="hiddenreset" default="1" />
+		<field name="compactcss" type="radio" default="1" 
+			label="CSS Loading" 
+			description="Compact and compressed CSS into one template.css or use separated css for development.">
+			<option value="2">Compact</option>
+			<option value="1">Normal</option>
+			<option value="0">Separated</option>			
+		</field>		
+
+	
+		<field type="spacer" default="Layout" />
+		<field name="layoutStyle" type="list" default="1" 
+			label="Layout Position" 
+			description="Module container layout position.">
+			<option value="lcr">Left - Content - Right</option>
+			<option value="lc">Left - Content</option>
+			<option value="cr">Content - Right</option>
+			<option value="rcl">Right - Content - Left</option>
+			<option value="rc">Right - Content</option>
+			<option value="cl">Content - Left</option>			
+			<option value="lrc">Left - Right - Content</option>
+			<option value="rlc">Right - Left - Content</option>
+			<option value="clr">Content - Left - Right</option>			
+			<option value="crl">Content - Right - Left</option>						
+		</field>
+		<field name="widthStyle" type="list" default="fluid" 
+			label="Template Width" 
+			description="Width style of the template">
+			<option value="fluid">Fluid</option>
+			<option value="small">Small</option>
+			<option value="medium">Medium</option>
+		</field>
+		<field name="mode" type="radio" default="1" 
+			label="Template Mode" 
+			description="You can test layout easily with this tool.">
+			<option value="1">Default/ Live site</option>
+			<option value="0">Testing/ Development</option>			
+		</field>
+		<field name="forceLogin" type="radio" default="0" 
+			label="Force sign-in" 
+			description="This will force login page for guest user.">
+			<option value="1">Enable</option>
+			<option value="0">Disable</option>			
+		</field>		
+		
+		<field type="spacer" default="Design" />
+		<field name="moo" type="radio" default="0" 
+			label="Nice mootools 1.3 effect" 
+			description="Prepare your mootools before using this.">
+			<option value="1">Enable</option>
+			<option value="0">Disable</option>			
+		</field>		
+		<field name="moodemo" type="radio" default="0" 
+			label="Show extended demo" 
+			description="Other demo using motools 1.2 effect.">
+			<option value="1">Enable</option>
+			<option value="0">Disable</option>			
+		</field>		
+
+	</fieldset>
+	</fields>
+	</config>
+	
+</extension>

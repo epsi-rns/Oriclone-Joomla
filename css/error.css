@@ -1,0 +1,134 @@
+#continfo {	
+	height:115px;
+	width:100%;
+	display: table; 
+}	
+#errorinfo {	
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+
+	vertical-align: middle;	
+	display: table-cell; 
+}
+h3,h4,h5 { margin: 5px;}
+#techinfo h4  { color:#000; }
+#system-message{ text-align: left; 	width: 600px; margin: 0; padding: 0;}
+
+#techinfo p {
+	font-size: 12px;
+	color: #000;
+}
+#errorboxbody {
+	font-size: 11px;
+	color: #444;
+}
+
+#errorboxoutline, #techinfo {
+	-moz-border-radius:10px; 
+	-webkit-border-radius:10px; 
+	border-radius:10px; 
+	-moz-border-radius-topleft:7px;
+	-moz-border-radius-topright:7px;
+	border: 1px solid #ccc;
+	border-left : 2px solid #dd6;
+	border-right : 2px solid #dd6;
+}
+
+#techinfo{
+	background: #fff; 
+	padding: 0 10px;
+	
+	opacity: 0.7;
+	/* -moz-opacity:.70; */
+	filter:alpha(opacity=70);
+}
+#techinfo:hover { 
+	opacity: 0.9;
+	/* -moz-opacity:.80; */
+	filter:alpha(opacity=90);
+}
+
+#techinfo {
+	margin: 10px;
+	/*padding: 10px;*/
+	text-align: left;
+	color: #CCCCCC;
+}
+/* readon */
+p.readmore a { padding : 2px 5px 2px 5px; }
+p.readmore a, .button {
+	background-color : #f8fbfd;
+	text-align : center;
+	font-size : 11px;
+	border : 3px double #e3e3e3;
+	margin : 2px;
+}
+p.readmore a	{ text-decoration: none; }
+p.readmore a:hover, .button:hover {
+	border : 3px double #dedfdf;
+	text-decoration: blink;
+	font-weight: bold;
+}
+
+p.readmore a { color : #000; }
+p.readmore a:hover, p.readmore a:link, p.readmore a:visited { color: #444; text-decoration: none; }
+
+
+/**
+ * CSS Document for offline page
+ * @version $Id: error.css 10387 2008-06-03 10:59:16Z pasamio $
+ * @package Joomla
+ * @copyright Copyright (C) 2005 - 2008 Open Source Matters. All rights reserved.
+ * @license GNU/GPL, see LICENSE.php
+ * Joomla! is free software and parts of it may contain or be derived from the
+ * GNU General Public License or other free or open source software licenses.
+ * See COPYRIGHT.php for copyright notices and details.
+ */
+
+/* Start Common Styles */
+* {
+	font-family: helvetica, arial, sans-serif;
+}
+
+html {
+	height: 100%;
+	margin-bottom: 1px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	margin-bottom: 1px;
+	background: #FFFFFF;
+	font-family: helvetica, arial, sans-serif;
+	font-weight: normal;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+table, td, th, div, pre, blockquote, ul, ol, dl, address,.componentheading,.contentheading,.contentpagetitle,.newsfeedheading {
+	font-family: helvetica, arial, sans-serif;
+	font-weight: normal;
+}
+
+#outline {
+	width: 814px;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	/*background: #FFFFFF;*/
+}
+#errorboxoutline {
+	width: 600px;
+	margin: 0px;
+	padding: 0px;
+}
+#errorboxbody {
+	margin: 0px;
+	padding: 10px;
+	text-align: left;
+}

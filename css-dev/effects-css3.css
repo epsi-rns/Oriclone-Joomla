@@ -1,0 +1,140 @@
+/* http://davidwalsh.name/css-enhancements-user-experience */
+::selection
+	{ background:#fa8; color:#000; /* Safari and Opera */ }
+::-moz-selection
+	{ background:#fa8; color:#000; /* Firefox */ } 
+
+/* box */ 
+fieldset {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+select { 
+	background: #fff; 
+}
+
+
+.category-list ul li,
+.items-more ol li,
+.doc_main ol li,
+table.category,
+input,
+select,
+fieldset {
+	-moz-border-radius:10px; 
+	-webkit-border-radius:10px; 
+	border-radius:10px; 
+}
+tr.cat-list-row0:hover,
+tr.cat-list-row1:hover,
+tr.even:hover, 
+tr.odd:hover,
+.category-list ul li:hover,
+.items-more ol li:hover,
+.doc_main ol li:hover,
+table.category:hover,
+input#mod-search-searchword:focus,
+.login-fields input#username:focus,
+.login-fields input#password:focus,
+.profile-edit input:focus,
+fieldset {	
+	-moz-box-shadow: #888 3px 3px 5px;
+	-webkit-box-shadow: #888 3px 3px 5px;
+	box-shadow: 3px 3px 5px #888;		
+}
+
+.profile-edit input,
+.login-fields input,
+select,
+form fieldset,
+fieldset {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-left : 3px solid #dd6;
+	border-right : 3px solid #dd6;	
+}
+
+fieldset:hover label{
+	text-shadow: 10px 10px 5px #888;
+}
+
+/* CSS3 */
+#gototop,
+#gloss,
+#lay_main .moduletable h3,
+.moduletable_text h3,
+.moduletable_menu h3,
+.moduletable_menu ul.menu li,
+.moduletable_menu ul.menu li li 
+{
+	-moz-border-radius:10px; 
+	-webkit-border-radius:10px; 
+	border-radius:10px; 
+}
+
+button,
+p.readmore a,
+#main_content .pagination li,
+table.contenttoc,
+table.contenttoc th {
+	-moz-border-radius:5px; 
+	-webkit-border-radius:5px; 
+	border-radius:5px; 
+}
+
+/* sheet */
+table.category,
+.sheet table {
+	border: 1px solid #CCCCCC;
+	padding: 3px;
+	width: 98%;
+	_width: 760px;
+	margin: 0 auto;
+}
+
+table.category th,
+.sheet th {
+	/*text-align: center;*/
+	font-weight: bold;
+	border-bottom: 1px solid #BBBBBB;
+	background: #efefef;
+	font-weight: bold;
+	height: 25px;
+	line-height: 25px;
+	padding: 2px 4px;
+}
+
+table.category th,
+.sheet th {
+	-moz-border-radius:3px; 
+	-webkit-border-radius:3px; 
+	border-radius:3px; 
+}
+
+table.category td,
+.sheet td {
+	text-align: left;
+	padding: 2px 4px;
+}
+
+tr.cat-list-row0,
+tr.even {
+	background: #EFEFEF;
+}
+
+tr.cat-list-row1,
+tr.odd {
+	background: #FFF;
+}
+
+tr.cat-list-row0:hover,
+tr.cat-list-row1:hover,
+tr.even:hover, 
+tr.odd:hover { background: #fff966; }
+
+tr.cat-list-row0:hover td,
+tr.cat-list-row1:hover td,
+tr.even:hover td, 
+tr.odd:hover td { border-bottom: 1px dotted #000; }
+

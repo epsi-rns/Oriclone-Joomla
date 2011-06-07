@@ -1,0 +1,85 @@
+@font-face {
+	font-family: 'Titillium Maps';
+	src: url("../fonts/TitilliumMaps29L002.eot");
+	src: local('Titillium Maps'), local('TitilliumMaps'), 
+		url("../fonts/TitilliumMaps29L002.otf") format("opentype"), 
+		url("../fonts/TitilliumMaps29L002.woff") format("woff");
+    font-family: Diavlo;
+	src: url(../fonts/Diavlo_MEDIUM_II_37.otf) format("opentype");
+}
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 12px; 
+}
+
+#lay_content { 
+	font-size: 13px; 
+}	
+
+/* Heading */
+
+/* http://webdesign.about.com/od/beginningcss/a/aa092107.htm */
+
+h1,h2,h3,h4,h5,h6 {
+	margin-bottom:10px;
+ 	font-family: Diavlo, Georgia, times, serif;
+	_font-family: Georgia, times, serif;
+}
+
+.contentheading,
+h1 { font-size: 28px; margin-bottom: 25px; }
+h2 { font-size: 24px; margin-bottom: 20px; }
+h3 { font-size: 20px; }
+h4 { font-size: 16px; margin-bottom: 15px; }
+h5 { font-size: 14px; margin-bottom: 0; }
+h6 { font-size: 12px; margin-bottom: 0; }
+
+h1:hover,h2:hover,h3:hover,h4:hover,h5:hover,h6:hover 
+	{ border-bottom:1px dashed #CCC;}
+
+h1 {padding-bottom: 8px;}
+h3 {border-bottom:1px dotted #CCC;}
+
+#lay_header_left h1#sitename a {
+	font-style: italic;
+  	font-weight:bold;  	
+}
+
+h2.doc_title {
+	font-family: Diavlo, Arial, Geneva, Helvetica, sans-serif; 
+	_font-family: Arial, Geneva, Helvetica, sans-serif; 	
+	font-size: 20px;
+	text-shadow: #ccc 2px 2px 1px;		
+	margin: 0px;
+}
+h2.doc_title:hover { 
+	text-shadow: black 1px 1px 2px;	
+}
+
+.breadcrumbs,
+.moduletable h3,	
+.moduletable_text h3,
+.moduletable_menu h3 { 
+	font-family:  Arial, Geneva, Helvetica, sans-serif;
+	font-size: 12px; 
+	font-weight : normal;
+}
+#lay_top h3 { 
+	border: none; 
+	font-size: 1.5em; 
+	line-height: 14px;
+}
+
+#lay_top a:link { text-transform: capitalize; }
+#lay_top a:hover { text-decoration: blink; }
+
+
+a { text-decoration: none;}
+a:hover { text-decoration: underline;}
+
+#lay_header a {text-decoration: none; } 
+#lay_header a:hover {text-decoration: underline;}
+
+
+

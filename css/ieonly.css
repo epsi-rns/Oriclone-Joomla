@@ -1,0 +1,6 @@
+/* IE ONLY CSS */
+
+/* http://css-tricks.com/the-perfect-fluid-width-layout/ */
+#page-wrap {
+	width:expression(document.body.clientWidth < 782? "780px" : document.body.clientWidth > 1262? "1260px" : "auto");
+}

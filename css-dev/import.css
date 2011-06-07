@@ -1,0 +1,30 @@
+/*--- theme ---*/
+
+@import url("layout.css");
+@import url("template.css");
+@import url("typography.css");
+@import url("scheme.css");
+
+/*--- joomla ---*/
+
+@import url("joomla15.css");
+@import url("joomla16.css");
+@import url("module.css");
+@import url("component.css");
+@import url("messages.css");
+
+/*--- article ---*/
+
+@import url("docs.css");
+@import url("position.css");
+@import url("calendar.css");
+@import url("background.css");
+
+/*--- accesories ---*/
+
+@import url("hmenu.css");
+@import url("effects.css");
+@import url("effects-css3.css");
+@import url("admin.css");
+@import url("specific.css");
+

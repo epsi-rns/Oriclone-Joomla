@@ -1,0 +1,190 @@
+/**
+ */
+
+/* not ready */
+
+/* ##########################  general  ########################### */
+
+/* ##########################  header content  ########################### */
+
+/* ##########################  fontsize  ########################### */
+
+/* ##########################  breadcrumbs  ########################### */
+
+/* ##########################  navigation column  ########################### */
+
+/* ++++++++++++++  first level  ++++++++++++++ */
+
+/* ++++++++++++++  second level  ++++++++++++++ */
+
+/* ++++++++++++++  third level  ++++++++++++++ */
+
+/* ##########################  main  ########################### */
+
+/* ++++++++++++++  main general  ++++++++++++++ */
+
+/* ++++++++++++++  columns  ++++++++++++++ */
+
+/* ++++++++++++++  top  ++++++++++++++ */
+
+/* ++++++++++++++  leading  ++++++++++++++ */
+
+/* ++++++++++++++  readmore  ++++++++++++++ */
+
+/* ++++++++++++++  details  ++++++++++++++ */
+
+.article-info {
+	margin:10px 0 10px 0px;
+	font-size:0.9em;
+}
+
+.article-info-term { display:none }
+
+dt.category-name,
+dt.create,
+dt.modified,
+dt.createdby
+{
+	float:left;
+	padding-right:5px;
+}
+
+.archive .article-info dd,
+.article-info dd {
+	margin:2px 0 0px 0;
+	line-height:1.2em
+}
+
+dd.createdby {}
+
+.article-info dd span
+{
+	text-transform:none;
+	display:inline-block;
+	padding:0 5px 0 0px;
+	margin:0 10px 0 0px;
+}
+
+/* ++++++++++++++  icons  ++++++++++++++ */
+
+#main_content ul.actions { text-align:right; padding:0; width:100%; margin:0 }
+#main_content ul.actions li { display:inline }
+#main_content ul.actions a { text-decoration:none }
+
+/* ++++++++++++++  items more  ++++++++++++++ */
+
+/* ++++++++++++++  pagination  ++++++++++++++ */
+
+#main_content .pagination
+{
+        margin:10px 0 ;
+        padding:10px 0 10px 0px;
+
+}
+
+#main_content .pagination ul
+{
+        list-style-type:none;
+        margin:0;
+        padding:0;
+        text-align:left;
+}
+
+#main_content .pagination li
+{
+        display:inline;
+        padding:2px 5px;
+        text-align:left;
+        border:solid 1px #eee;
+        margin:0 2px
+}
+
+.pagenav
+{padding:2px}
+
+#main_content .pagination li.pagination-start,
+#main_content .pagination li.pagination-next,
+#main_content .pagination li.pagination-end,
+#main_content .pagination li.pagination-prev
+{border:0}
+
+#main_content .pagination li.pagination-start ,
+#main_content .pagination li.pagination-start  span
+ {
+padding:0
+
+}
+p.counter
+{
+        font-weight:bold;
+}
+
+/* ##########################  right  ########################### */
+
+/*  ####################   forms   #####################  */
+
+/* ########################## search ############################ */
+
+/* ++++++++++++++  selects  ++++++++++++++ */
+
+/* ++++++++++++++  search results  ++++++++++++++++++ */
+
+/* ########################### contacts ########################### */
+
+/* ##########################  user profile  ########################### */
+
+/*#################### tables ############################ */
+
+/* ++++++++++++++  category table  ++++++++++++++ */
+
+/* #################### footer ############################ */
+
+/* ++++++++++++++  Error Message contact form  ++++++++++++++ */
+
+/* ++++++++++++++  editor  ++++++++++++++ */
+
+/* ++++++++++++++  pagebreak  ++++++++++++++ */
+
+/* ++++++++++++++  edit  ++++++++++++++ */
+
+/* ++++++++++++++  tooltip  ++++++++++++++ */
+
+/* #################### modules ############################ */
+
+/* ++++++++++++++  newsflash  ++++++++++++++ */
+
+/* newsflash horizontal */
+
+/* newsflash vertical */
+
+/* ++++++++++++++  banner  ++++++++++++++ */
+
+/* ++++++++++++++  latest, popular  ++++++++++++++ */
+
+/* ++++++++++++++  newsflash  ++++++++++++++ */
+
+/* ++++++++++++++  newsfeed  ++++++++++++++ */
+
+/* ++++++++++++++  weblinks  ++++++++++++++ */
+
+/* ++++++++++++++  login  ++++++++++++++ */
+
+/* ++++++++++++++  tabs/ slide  ++++++++++++++ */
+
+/* ++++++++++++++  random  ++++++++++++++ */
+
+/* ++++++++++++++  content-module ++++++++++++++ */
+
+/*-------------------------------*/
+
+/* ###########  Categories list ############ */
+
+/* mod stats  */
+
+/* pagebreak */
+
+/* mailto window */
+
+/* for the spacer field*/
+
+/* ++++++++++++++  news feeds direction ++++++++++++++ */

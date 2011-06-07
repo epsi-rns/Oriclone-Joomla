@@ -1,0 +1,12 @@
+#tabmenu_center li {
+	background: transparent url(../../images/menu-top/bar-orange.png) top repeat-x;
+}
+#tabmenu_center li:hover {
+	background: transparent url(../../images/menu-top/hov-orange.png) top repeat-x;
+}
+#tabmenu_center li a {
+	background: transparent url(../../images/menu-top/sep-orange.png) right no-repeat;
+}
+
+#tabmenu_center li a { color:#444; }
+#tabmenu_center li a:hover { color:#000; }

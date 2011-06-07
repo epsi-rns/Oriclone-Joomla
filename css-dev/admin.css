@@ -1,0 +1,45 @@
+/* -- admin -- */
+#toolbar-box {
+	min-width: 500px;
+	_width: 97%;
+}
+
+#submenu-box ul, #submenu-box ol, #submenu-box li {
+	margin : 0;
+	padding : 0;
+}
+
+#submenu-box ul li {
+	text-align : left;
+	padding-left : 5px;
+	background : url(../images/notmine/li.png) no-repeat 4px 0;
+	list-style-image: none;
+	border: none;
+}
+#submenu-box ul li:hover {
+	text-align : left;
+	padding-left : 5px;
+	background : url(../images/notmine/li_hover.png) no-repeat 4px 0;
+	list-style-image: none;
+	border: none;
+}
+
+.m { 
+	font-family:Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	line-height:1.3em;
+}
+
+.m .button {
+	text-align : center;
+	font-size : 10px;
+	padding : 2px 1px 2px 1px;
+	margin : 2px;
+	background-repeat:repeat;
+	background: #f8fbfd url(../images/notmine/button_bg.png);	
+	border : 3px double #e3e3e3;	
+}
+.m .button:hover {
+	background-repeat:repeat;
+	border : 3px double #dedfdf;
+}

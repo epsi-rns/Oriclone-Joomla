@@ -1,0 +1,108 @@
+.hasTip img,
+.buttonheading img {border: none; margin: 0;}
+
+.componentheading {
+	background-repeat : no-repeat;
+	font-size : 18px;
+	font-weight : normal;
+	padding : 6px 0px 5px 35px;
+	margin : 2px;
+}
+.contentheading {
+	background-repeat : no-repeat;
+	font-size : 16px;
+	font-weight : bold;
+	padding : 6px 0px 5px 32px;
+	margin : 2px;
+}
+
+@media print {
+	.componentheading,
+	.contentheading {
+		padding : 6px 0px 5px 0px;
+	}
+	.buttonheading { display:none; }
+}
+
+.contentpaneopen .buttonheading { opacity: 0.5; }
+.contentpaneopen:hover .buttonheading { opacity: 1; }
+
+.contentdescription  {
+	padding-bottom: 10px; 
+}
+
+
+/* ie6, seen in login.php */
+#lay_content .pos_lcr .button {  margin-left: 2px; } 
+
+
+/* CSS 3, FF 3.5, mess with joomla title filter 
+form tr:nth-child(odd) { background-color:#fff; }
+form tr:nth-child(even) { background-color:#eee; }
+*/
+
+/* module specific */
+
+table.poll,
+table.pollstableborder {
+	padding : 0;
+	width : 100%;
+}
+
+table.pollstableborder td {
+	text-align : left; /* ie */
+	line-height: 14px;
+	padding : 5px 2px 0px 2px;
+}
+
+.pollstableborder tr td { border-bottom: 1px dotted #ccc; }
+
+/* module_text :: mittwoch css */
+.bannerheader {
+	font-size : 12px;
+	font-weight : bold;
+	padding-left : 5px;
+}
+.banneritem_text {
+	padding : 2px 5px 2px 5px;
+}
+.bannerfooter_text {
+	padding : 2px 5px 2px 5px;
+	font-size : 12px;
+	font-weight : bold;
+}
+.banneritem_text a:hover { text-transform: uppercase; }
+
+/* bottom */
+.mostread li,
+.latestnews li {
+    list-style-type: none;
+}
+.mostread li a,
+.latestnews li a {
+    border-bottom: 1px dotted #666;
+    display:       block;
+}
+
+.mostread li a:hover,
+.latestnews li a:hover {
+    border-bottom: 1px solid #0076a2;
+}
+
+ul.mostread li,
+ul.latestnews li {
+    padding:     2px 2px 5px 0px;
+    margin-left: 0px;
+    width:       auto;
+    text-align:  left;
+}
+
+/* anchor/link */
+.moduletable_menu a {
+	color: #222;
+}
+.moduletable_menu a:link,
+.moduletable_menu a:visited {
+	color: #444;
+}
+
