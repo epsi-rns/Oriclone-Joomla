@@ -10,7 +10,7 @@ I'm using it for [iluni.org](http://iluni.org).
 Related Link
 ------------
 You might also want to use .
-[Oriclan Extension for Joomla](https://github.com/epsi/Oriclan-Joomla)
+[Oriclane Extension for Joomla](https://github.com/epsi/Oriclane-Joomla)
 
 About Oriclone
 --------------
